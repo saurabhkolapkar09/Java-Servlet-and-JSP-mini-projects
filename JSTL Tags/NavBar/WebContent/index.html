@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>NavBar Creation </title>
+<style>
+        .nbar{
+            /*text-align: center;*/
+           background-color: rgb(70, 65, 65);
+           border-radius :20px;
+           position: fixed;
+           top: 2px;
+           width:100%;
+       }
+       .nbar ul{
+           overflow: auto;
+       }
+       .nbar li{
+           float : left;
+           list-style: none;
+           margin: 13px 20px;
+       }
+       .nbar li a{
+           text-decoration: none;
+           color: white;
+           padding:3px 3px;
+       }
+       .nbar li a:hover{
+           background-color: black;
+           color:rgb(153, 138, 138)
+       }
+       .search{
+           color :rgb(238, 30, 30);
+           float :right;
+           padding: 12px 50px;
+       }
+       .nbar input{
+           border:2px solid black;
+           border-radius: 8px;
+       }
+       h1{
+           color: rgb(245, 245, 8);
+       }
+       
+        .br{
+            display: inline-block;
+            box-sizing: border-box;
+            margin: auto;
+            border:2px solid rgb(230, 97, 8);
+            width: 400px;
+            height: 200px;
+            background-color: rgb(219, 66, 6);
+            margin: 14px 16px;
+            padding: 20px 20px;
+            float:left;
+            
+            
+            
+        }
+        .kp{
+            display: inline-block;
+            margin: auto;
+            background-color: rgb(128, 240, 16);
+            border: 2px dotted rgb(243, 98, 62);
+            height :3500px;
+            width: 1200px;
+        }
+        .main{
+            display: block;
+            margin: auto;
+            text-align: center;
+            width: 100%;
+            /*height:3400px*/
+            background-color: rgb(71, 7, 7);
+        }
+        img{
+            display: block;
+            margin: auto;
+
+            width : 60px;
+            height: 60px;
+            border: 2px solid black;
+            border-radius: 30px;
+        }
+        #box2{
+            position: fixed;
+            left :10px;
+
+        }
+        p{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+             
+        }
+    </style>
+</head>
+<body class ="main"> 
+    <nav class = "nbar">
+        <ul>
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "about.html">about</a></li>
+            <li><a href = "service.html">Services</a></li>
+            <li><a href = "">Contact us</a></li>
+            <li><a href = "form.html">login</a></li>
+            <div class = "search">
+                <input type="text" name = "Search" id = "Search" placeholder="Search">
+            </div>
+
+        </ul>
+    </nav>
+    
+</body>
+</html>
